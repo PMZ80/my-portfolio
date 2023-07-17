@@ -274,13 +274,17 @@ nav{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
-   animation-name:zoomIn;
+   /* animation-name:zoomIn;
    animation-duration:5s;
-   animation-delay:0.5s;
+   animation-delay:0.5s; */
  }
  .skills-details .box{
    width: calc(100% / 2 - 20px);
    margin: 20px 0;
+   animation-name:fadeInRight;
+   animation-duration:6s;
+   animation-delay:0.5s;
+   animation-timing-function: ease-in;
  }
  .skills-details .boxes .topic{
    font-size: 20px;
